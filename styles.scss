@@ -1,0 +1,56 @@
+$text-color: lightgrey;
+
+body {
+  background-color: black;
+  color: $text-color;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+table {
+  color: $text-color !important;
+}
+
+div {
+  h6 {
+    font-style: italic;
+  }
+}
+
+@media (max-width: 899px) {
+  #dk3wallpaper {
+    display: none;
+  }
+  #ds3case {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) {
+  #dk3wallpaper {
+    width: 100%;
+  }
+  #ds3case {
+    display: none;
+  }
+}
+
+%ds-border-radius {
+  border-radius: 15px;
+}
+
+#area-list {
+  @extend %ds-border-radius;
+  padding-top: 10px;
+  border: 2px solid $text-color;
+}
+
+.armor {
+  @extend %ds-border-radius;
+}
+
+.bg-light {
+  background-color: $text-color !important;
+}

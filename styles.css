@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: lightgrey; }
+
+nav {
+  margin-bottom: 20px; }
+
+table {
+  color: lightgrey !important; }
+
+div h6 {
+  font-style: italic; }
+
+@media (max-width: 899px) {
+  #dk3wallpaper {
+    display: none; }
+
+  #ds3case {
+    width: 100%; } }
+@media (min-width: 900px) {
+  #dk3wallpaper {
+    width: 100%; }
+
+  #ds3case {
+    display: none; } }
+#area-list, .armor {
+  border-radius: 15px; }
+
+#area-list {
+  padding-top: 10px;
+  border: 2px solid lightgrey; }
+
+.bg-light {
+  background-color: lightgrey !important; }
+
+/*# sourceMappingURL=styles.css.map */
